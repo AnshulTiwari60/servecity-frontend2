@@ -97,7 +97,7 @@ const LoginForm = ({
           </span>
         </div>
 
-        <Button variant="outline" type="button" className="w-full gap-2">
+        <Button variant="outline"  type="button" className="w-full gap-2">
           <FcGoogle className="size-5" />
           Continue with Google
         </Button>

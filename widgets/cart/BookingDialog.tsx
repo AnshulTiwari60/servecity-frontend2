@@ -35,7 +35,7 @@ export function BookingDialogButton({ serviceId }: { serviceId: any }) {
     const payload = {
       serviceId: serviceId,
       quantity: qty,
-      date: slot.date.toISOString(),
+      date: slot.date.toLocaleDateString("en-CA"),
       timeSlot: slot.time,
     };
 
